@@ -1,0 +1,32 @@
+{
+  "name": "progressaurus",
+  "version": "0.0.1",
+  "description": "rawr",
+  "author": "Ólafur Waage @olafurw",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "terminal",
+    "progress",
+    "progressbar"
+  ],
+  "homepage": "https://github.com/olafurw/progressaurus",
+  "bugs": "https://github.com/olafurw/progressaurus/issues",
+  "module": "index.ts",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "bunx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olafurw/progressaurus.git"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
